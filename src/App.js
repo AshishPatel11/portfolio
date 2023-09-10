@@ -1,11 +1,11 @@
 import './App.css';
-
+import Nav from './components/Nav'
+import Landing from './components/Landing'
 function App() {
   return (
     <>
-      <h1>
-        My Portfolio
-      </h1>
+      <Nav />
+      <Landing />
     </>
   );
 }
